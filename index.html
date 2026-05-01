@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushikesh Kadam | Portfolio</title>
+    <meta name="description" content="Portfolio of Rushikesh Kadam, a second-year CSE student exploring software development, Cloud, and AI.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RK.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-grid">
+                <div class="hero-content reveal active">
+                    <div class="hero-badge">Software Developer</div>
+                    <h1 class="hero-title">Hi, I'm <br><span>Rushikesh</span> Kadam.</h1>
+                    <p class="hero-desc">A second-year CSE student passionate about exploring software development, cloud computing, and AI. Constantly building and learning.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal active" style="transition-delay: 0.2s;">
+                    <div class="hero-glow"></div>
+                    <img src="avatar.png" alt="Profile avatar" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="premium-card reveal">
+                <p>I'm currently in my second year of Computer Science Engineering at Sveri’s College of Engineering. I started my coding journey with basic programming and gradually moved on to building small projects to see how things actually work behind the scenes.</p>
+                <p>To be honest, it hasn't always been a smooth ride. While building projects, I've spent plenty of time frustrated over weird bugs and trying to wrap my head around how different systems connect. But I've found that grinding through those errors and practicing is the best way for me to improve.</p>
+                <p>Right now, I'm just focusing on learning as much as I can, getting real-world experience, and eventually building applications that people find useful.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <h2 class="section-title reveal">Skills & Experience</h2>
+            
+            <div class="grid-2">
+                <div class="premium-card reveal">
+                    <div class="skill-icon-wrapper"><i class="fa-solid fa-code"></i></div>
+                    <h3 class="skill-category-title">Technical Skills</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">C Language</span>
+                        <span class="skill-level">Comfortable</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <span class="skill-level">Basics</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-level">Beginner</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <span class="skill-level">Beginner</span>
+                    </div>
+                </div>
+                
+                <div class="premium-card reveal" style="transition-delay: 0.1s;">
+                    <div class="skill-icon-wrapper"><i class="fa-solid fa-user-group"></i></div>
+                    <h3 class="skill-category-title">Personal Skills</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Teamwork</span>
+                        <span class="skill-level">College Projects</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Time Management</span>
+                        <span class="skill-level">Balancing Studies</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Problem Solving</span>
+                        <span class="skill-level">Debugging</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <h2 class="section-title reveal">My Projects</h2>
+            
+            <div class="grid-2">
+                <div class="premium-card project-card reveal">
+                    <div class="project-top">
+                        <i class="fa-regular fa-folder-open project-icon"></i>
+                        <div class="project-links">
+                            <a href="#" aria-label="Github link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Student Attendance System</h3>
+                    <p class="project-desc">A Java-based application for managing student records and tracking daily attendance. It generates reports automatically, replacing manual roll calls and improving accuracy.</p>
+                    <div class="project-highlight">
+                        <strong>What I learned:</strong> Basics of Java, data handling, and structuring a multi-file project architecture.
+                    </div>
+                    <ul class="project-tech">
+                        <li>Java</li>
+                        <li>Desktop UI</li>
+                        <li>Data Handling</li>
+                    </ul>
+                </div>
+
+                <div class="premium-card project-card reveal" style="transition-delay: 0.1s;">
+                    <div class="project-top">
+                        <i class="fa-regular fa-folder-open project-icon"></i>
+                        <div class="project-links">
+                            <a href="#" aria-label="Github link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Smart Pulse Sensor System</h3>
+                    <p class="project-desc">An IoT project using an ESP32 microcontroller to monitor heart rates in real-time. Captures pulse data and displays it efficiently to the user.</p>
+                    <div class="project-highlight">
+                        <strong>What I learned:</strong> Hardware integration, handling real-time data streams without system crashes.
+                    </div>
+                    <ul class="project-tech">
+                        <li>IoT</li>
+                        <li>ESP32</li>
+                        <li>C++</li>
+                        <li>Hardware</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-padding">
+            <h2 class="section-title reveal">Education & Courses</h2>
+            
+            <div class="grid-2">
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 – Present</span>
+                            <h3>B.Tech in Computer Science</h3>
+                            <p>Sveri’s College of Engineering, Pandharpur</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 – 2024</span>
+                            <h3>HSC (60%)</h3>
+                            <p>New English School & Jr. College, Sangola</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021</span>
+                            <h3>SSC (85%)</h3>
+                            <p>Sangola Vidyamandir Prashala, Sangola</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="courses-langs">
+                    <div class="premium-card reveal mb-4" style="margin-bottom: 2rem;">
+                        <div class="skill-icon-wrapper" style="width: 40px; height: 40px; font-size: 1.2rem; margin-bottom: 1rem;"><i class="fa-solid fa-certificate"></i></div>
+                        <h3 class="skill-category-title">Courses</h3>
+                        <div class="skill-item" style="display: block; border: none;">
+                            <span class="skill-name" style="display: block; font-size: 1.1rem; margin-bottom: 0.5rem;">Effective Communication (NPTEL)</span>
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Helped me get better at presenting my ideas clearly and communicating in a team setting.</span>
+                        </div>
+                    </div>
+
+                    <div class="premium-card reveal" style="transition-delay: 0.1s;">
+                        <div class="skill-icon-wrapper" style="width: 40px; height: 40px; font-size: 1.2rem; margin-bottom: 1rem;"><i class="fa-solid fa-language"></i></div>
+                        <h3 class="skill-category-title">Languages</h3>
+                        <div class="skill-item"><span class="skill-name">English</span><span class="skill-level">Fluent</span></div>
+                        <div class="skill-item"><span class="skill-name">Hindi</span><span class="skill-level">Fluent</span></div>
+                        <div class="skill-item"><span class="skill-name">Marathi</span><span class="skill-level">Native</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <p class="hero-desc reveal" style="text-align: center; max-width: 600px; margin: 0 auto;">I'm always open to discussing projects, collaborating, or just chatting about tech!</p>
+            
+            <div class="contact-grid reveal">
+                <a href="mailto:rushikeshnkadam24@coep.sveri.ac.in" class="premium-card contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>Email Me</h3>
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">rushikeshnkadam24@coep...</span>
+                </a>
+                <a href="https://www.linkedin.com/in/rushikesh-kadam234" target="_blank" rel="noopener noreferrer" class="premium-card contact-card">
+                    <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">Connect with me</span>
+                </a>
+                <div class="premium-card contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">+91 7558757329</span>
+                </div>
+                <div class="premium-card contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3>Location</h3>
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">Sangola, India</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built by Rushikesh Kadam. &copy; 2026</p>
+    </footer>
+
+    <script>
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>
